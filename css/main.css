@@ -1,0 +1,136 @@
+body {
+	color: #333;
+	font-family: Helvetica, sans-serif;
+	margin: 0px; 
+	padding: 0px;
+}
+
+h1 {
+	font-family: Verdana, sans-serif;
+	color: #000;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+#header {
+	width: 100%;
+	background-color: #ccc;
+	background-image:url('../images/header.jpg');
+	background-repeat:repeat-x;
+	height: 50px;
+	border-bottom: solid 2px #000;
+	text-align: center;
+}
+
+#topnav, #topnav a, #topnav a:visited {
+	padding-top: 15px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#topnav a:hover {
+	padding-top: 15px;
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	background: #333;
+}
+
+#main {
+	padding-top: 30px;
+	width: 900px;
+	margin: auto;
+	min-height: 400px;
+	_height: 400px;
+}
+
+#footer {
+	padding-top: 10px;
+	width: 900px;
+	margin: auto;
+	text-align: center;
+	border-top: 2px solid #000;
+	padding-bottom: 15px;
+}
+
+#biglogo {
+	float: left;
+	padding-bottom: 10px;
+}
+
+#vision {
+	width: 50%;
+	float: right;
+}
+
+#visionbox {
+	/* background: #EEE; */
+	padding: 7px;
+	min-height: 200px;
+	_height: 200px;
+	/* border: 1px solid #CCC; */
+	/*border: 1px solid #333;*/
+}
+#license {
+	padding: 4px;
+	font-size: 13px;
+}
+
+#donate {
+	float: right;
+	padding-top: 30px;
+	padding-right: 5px;
+}
+
+.leftbox {
+	padding: 7px;
+	float:left;
+	background: #EEE;
+	border: 1px solid #CCC;
+	width: 48%;
+}
+
+.rightbox {
+	padding: 7px;
+	float:right;
+	background: #EEE;
+	border: 1px solid #CCC;
+	width: 48%;
+}
+
+.pad {
+	height: 25px;
+}
+
+.clearall {
+	clear: both;
+}
+
+.right {
+	float:right;
+	clear:right;
+}
+
+.small {
+	font-size: 14px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.downloadbox {
+
+}
+
+.seperator {
+	height: 4px;
+	background: #333;
+}
