@@ -27,20 +27,20 @@
 				</div>
 				<div class="downloadbox">
 					<h4>Download latest stable release</h4>
-					<a href="#"><img src="http://github.com/images/modules/download/tar.png" height="75px" border="0"/></a>
-					<a href="#"><img src="http://github.com/images/modules/download/zip.png" height="75px" border="0"/></a>
+					<a href="#"><img src="images/tar.jpg" height="75px" border="0"/></a>
+					<a href="#"><img src="images/zip.jpg" height="75px" border="0"/></a>
 				</div>
 			</div>
 			<div class="clearall"></div>
 			<div class="pad"></div>
 			<div class="leftbox">
-				<div class="right"><a href="http://blog.toobsframework.org/?feed=rss2"><img src="images/rss.png" border="0" height="20px"/></a></div>
+				<div class="right"><a href="http://blog.toobsframework.org/?feed=rss2"><img src="images/rss1.jpg" border="0" height="20px"/></a></div>
 				<h2>News</h2>
 				<?php include("includes/news.php"); ?>
 			</div>
 			
 			<div class="rightbox">
-				<div class="right"><a href="#"><img src="images/rss.png" border="0" height="20px"/></a></div>
+				<div class="right"><a href="#"><img src="images/rss1.jpg" border="0" height="20px"/></a></div>
 				<h2>Development Stream</h2>
 				<?php include("includes/devstream.php"); ?>
 			</div>

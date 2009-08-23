@@ -2,7 +2,7 @@
 	<div class="info">
 		
 		<a href="http://twitter.com/toobsframework"><img src="images/twitter-logo.jpg" border="0" height="45px" alt="twitter"/></a>
-		<a href="http://github.com/toobs/toobs"><img src="images/github-logo.png" border="0" alt="github" height="40px"/></a>
+		<a href="http://github.com/toobs/toobs"><img src="images/github-logo.jpg" border="0" alt="github" height="40px"/></a>
 	</div>
 	<div id="license">Toobs is licensed under the <a href="license.php">Apache Open Source License</a></div>
 </div>

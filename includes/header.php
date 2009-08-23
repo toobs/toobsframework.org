@@ -1,10 +1,10 @@
 <div id="header"> 
-		<a href="http://github.com/toobs/toobs"><img style="position: absolute; top: 0; left: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png" alt="Fork me on GitHub" /></a>
+		<a href="http://github.com/toobs/toobs"><img style="position: absolute; top: -1; left: 0; border: 0;" src="/images/fork.jpg" alt="Fork me on GitHub" /></a>
 	<div id="topnav">
-		<a href="index.php">Home</a> | 
+		<a href="http://toobsframework.org">Home</a> | 
 		<a href="http://wiki.toobsframework.org/index.php/docs">Documentation</a> | 
-		<a href="community.php">Community</a> | 
-		<a href="development.php">Development</a> | 
+		<a href="http://toobsframework.org/community.php">Community</a> | 
+		<a href="http://toobsframework.org/development.php">Development</a> | 
 		<a href="http://wiki.toobsframework.org">Wiki</a> | 
 		<a href="http://blog.toobsframework.org">Blog</a>
 	</div>

@@ -1,6 +1,6 @@
 <html><head><title>404 Not Found</title></head>
 <body bgcolor=white>
-<h1>404 Not Found</h1>
+<h1>404 Not Found sucka!</h1>
 
 The requested URL <!--#echo var="REQUEST_URI" --> does not exist.
 
