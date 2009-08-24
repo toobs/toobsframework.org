@@ -1,5 +1,5 @@
 <?php
-require_once('../rss/rss_fetch.inc');
+require_once('rss/rss_fetch.inc');
 
 /* define('MAGPIE_CACHE_DIR', '/tmp/magpie_cache'); */
 
@@ -13,13 +13,13 @@ if ( $url ) {
         $rss = fetch_rss($url);
         $items = array_slice($rss->items, 0, $num_items);
         if ( !$items ) {
-        echo "<li><span class=\"news_text\">No News Yet</span></ul>";}
+        echo "<li>No News Yet</ul>";}
         else {
         foreach ($items as $item) {
                 $href = $item['link'];
                 $title = $item['title'];
                 $date = $item['pubdate'];
-                echo "<li><span class=\"news_text\"><a href='$href'>$title</a></span></li>";
+                echo "<li><a href='$href'>$title</a></li>";
         }
         }
         echo "";
