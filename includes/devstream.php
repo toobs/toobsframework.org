@@ -1,3 +1,4 @@
+<ul>
 <?php
 require_once('rss/rss_fetch.inc');
 
@@ -5,7 +6,7 @@ require_once('rss/rss_fetch.inc');
 
 /* Testing URL Param */
 /* $url = 'https://sourceforge.net/export/rss2_projnews.php?group_id=172556'; */
-$url = 'http://github.com/toobs.atom';
+$url = 'http://github.com/feeds/toobs/commits/toobs/master';
 
 
 if ( $url ) {
@@ -13,7 +14,7 @@ if ( $url ) {
         $rss = fetch_rss($url);
         $items = array_slice($rss->items, 0, $num_items);
         if ( !$items ) {
-        echo "<li>No News Yet</ul>";}
+        echo "<li>No data found</li>";}
         else {
         foreach ($items as $item) {
                 $href = $item['link'];
@@ -25,3 +26,4 @@ if ( $url ) {
         echo "";
 }
 ?>
+</ul>

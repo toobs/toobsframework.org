@@ -1,3 +1,4 @@
+<ul>
 <?php
 require_once('rss/rss_fetch.inc');
 
@@ -13,7 +14,7 @@ if ( $url ) {
         $rss = fetch_rss($url);
         $items = array_slice($rss->items, 0, $num_items);
         if ( !$items ) {
-        echo "<li>No News Yet</ul>";}
+        echo "<li>No News Yet</li>";}
         else {
         foreach ($items as $item) {
                 $href = $item['link'];
@@ -25,3 +26,4 @@ if ( $url ) {
         echo "";
 }
 ?>
+</ul>

@@ -40,7 +40,7 @@
 			</div>
 			
 			<div class="rightbox">
-				<div class="right"><a href="http://github.com/toobs.atom"><img src="images/rss1.jpg" border="0" height="20px"/></a></div>
+				<div class="right"><a href="http://github.com/feeds/toobs/commits/toobs/master"><img src="images/rss1.jpg" border="0" height="20px"/></a></div>
 				<h2>Development Activity</h2>
 				<?php include("includes/devstream.php"); ?>
 			</div>
