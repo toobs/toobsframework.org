@@ -23,7 +23,7 @@
 			<div id="vision">
 				<h1>Welcome to Toobs</h1>
 				<div id="visionbox">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis eros vel odio aliquam ac condimentum lorem posuere. Curabitur imperdiet elit et lorem pellentesque tincidunt. Duis at ante mauris. Quisque lobortis metus quis sem condimentum tincidunt. Curabitur in turpis vitae mi pellentesque pellentesque. Proin et libero vel enim bibendum feugiat. Nam imperdiet lobortis tellus. Donec accumsan dapibus accumsan. Vestibulum vitae mi ipsum, nec faucibus enim. Sed vehicula bibendum bibendum. Mauris ac sem sit amet ipsum porttitor egestas. Donec a lacus felis. Donec a dui hendrerit ante sollicitudin rutrum sit amet eu justo. Aliquam erat volutpat. Praesent sed diam in risus venenatis ullamcorper a at neque. Nulla facilisi. 
+					Toobs is a new kind of java web framework. 
 				</div>
 				<div class="downloadbox">
 					<h4>Download latest stable release</h4>
@@ -34,14 +34,14 @@
 			<div class="clearall"></div>
 			<div class="pad"></div>
 			<div class="leftbox">
-				<div class="right"><a href="http://blog.toobsframework.org/?feed=rss2"><img src="images/rss1.jpg" border="0" height="20px"/></a></div>
-				<h2>News</h2>
+				<div class="right"><a href="http://blog.toobsframework.org/feed"><img src="images/rss1.jpg" border="0" height="20px"/></a></div>
+				<h2>Latest News</h2>
 				<?php include("includes/news.php"); ?>
 			</div>
 			
 			<div class="rightbox">
-				<div class="right"><a href="#"><img src="images/rss1.jpg" border="0" height="20px"/></a></div>
-				<h2>Development Stream</h2>
+				<div class="right"><a href="http://github.com/toobs.atom"><img src="images/rss1.jpg" border="0" height="20px"/></a></div>
+				<h2>Development Activity</h2>
 				<?php include("includes/devstream.php"); ?>
 			</div>
 			<div class="clearall"></div>
