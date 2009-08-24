@@ -6,7 +6,7 @@ require_once('rss/rss_fetch.inc');
 
 /* Testing URL Param */
 /* $url = 'https://sourceforge.net/export/rss2_projnews.php?group_id=172556'; */
-$url = 'http://github.com/feeds/toobs/commits/toobs/master';
+$url = 'http://github.com/feeds/toobs/commits/Toobs/master';
 
 
 if ( $url ) {
