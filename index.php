@@ -23,7 +23,18 @@
 			<div id="vision">
 				<h1>Welcome to Toobs</h1>
 				<div id="visionbox">
-					Toobs is a new kind of java web framework. 
+					"What java framework do you use to build web pages? Struts 2, WebWork, Widget?"
+
+          ToobSmiths believe this is the wrong question to ask:
+
+          People have been building pages for the web for a long time.  With the advent of web 2.0 and AJAX, page-level frameworks have gotten in the way instead of easing development and increasing productivity, often leading to difficult solutions to easy-to-solve problems.
+
+          A better question would be:
+
+          “What java framework do you use to compose, aggregate, and manage your catalog of reusable components?”
+
+          This surprisingly simple question is answered by decomposing web development into smaller, more manageable chunks: Pages, Components, Widgets and Properties.  Toobs provides an implementation for organizing these elements in a consistent manner using a pluggable, secure environment backed by Spring. This allows for a blazing fast concurrent implementation that can be expanded to run any rendering engine of choice.
+
 				</div>
 				<div class="downloadbox">
 					<h4>Download latest stable release</h4>
