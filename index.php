@@ -23,17 +23,17 @@
 			<div id="vision">
 				<h1>Welcome to Toobs</h1>
 				<div id="visionbox">
-					"What java framework do you use to build web pages? Struts 2, WebWork, Widget?"
+					"What java framework do you use to build web pages? Struts 2, WebWork, Widget?"<br/><br/>
 
-          ToobSmiths believe this is the wrong question to ask:
+          ToobSmiths believe this is the wrong question to ask:<br/><br/>
 
-          People have been building pages for the web for a long time.  With the advent of web 2.0 and AJAX, page-level frameworks have gotten in the way instead of easing development and increasing productivity, often leading to difficult solutions to easy-to-solve problems.
+          People have been building pages for the web for a long time.  With the advent of web 2.0 and AJAX, page-level frameworks have gotten in the way instead of easing development and increasing productivity, often leading to difficult solutions to easy-to-solve problems.<br/><br/>
 
-          A better question would be:
+          A better question would be:<br/><br/>
 
-          “What java framework do you use to compose, aggregate, and manage your catalog of reusable components?”
+          “What java framework do you use to compose, aggregate, and manage your catalog of reusable components?”<br/><br/>
 
-          This surprisingly simple question is answered by decomposing web development into smaller, more manageable chunks: Pages, Components, Widgets and Properties.  Toobs provides an implementation for organizing these elements in a consistent manner using a pluggable, secure environment backed by Spring. This allows for a blazing fast concurrent implementation that can be expanded to run any rendering engine of choice.
+          This surprisingly simple question is answered by decomposing web development into smaller, more manageable chunks: Pages, Components, Widgets and Properties.  Toobs provides an implementation for organizing these elements in a consistent manner using a pluggable, secure environment backed by Spring. This allows for a blazing fast concurrent implementation that can be expanded to run any rendering engine of choice.<br/><br/>
 
 				</div>
 				<div class="downloadbox">
